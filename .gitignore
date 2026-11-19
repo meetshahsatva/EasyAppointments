@@ -1,0 +1,17 @@
+# Secrets: never upload
+config.php
+
+# Runtime data: keep the folders, ignore the contents
+storage/logs/*
+storage/sessions/*
+storage/cache/*
+storage/uploads/*
+storage/backups/*
+!storage/*/index.html
+!storage/*/.htaccess
+
+# OS / editor junk
+Thumbs.db
+.DS_Store
+.vscode/
+*.sql
